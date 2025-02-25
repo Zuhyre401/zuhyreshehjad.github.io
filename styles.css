@@ -1,0 +1,87 @@
+/* সাধারণ স্টাইল */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* হেডার */
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+}
+
+/* প্রোফাইল সেকশন */
+section {
+    margin: 30px auto;
+    max-width: 500px;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* প্রোফাইল ছবি */
+img {
+    width: 150px;  /* ছবির আকার */
+    height: 150px; /* অনুপাত ঠিক রাখা */
+    border-radius: 50%; /* সার্কুলার ইমেজ */
+    border: 4px solid #3498db; /* নীল বর্ডার */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); /* সুন্দর শ্যাডো */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* হোভার করলে ছবি বড় হবে */
+img:hover {
+    transform: scale(1.1);
+}
+
+/* নাম ও বিবরণ */
+h2 {
+    color: #333;
+    font-size: 28px;
+    margin: 10px 0 5px;
+}
+
+p {
+    color: #777;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* যোগাযোগ বাটন */
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #3498db;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+a:hover {
+    background: #2980b9;
+}
+
+/* মোবাইল রেসপনসিভ ডিজাইন */
+@media (max-width: 600px) {
+    section {
+        max-width: 90%;
+    }
+    img {
+        width: 120px;
+        height: 120px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
