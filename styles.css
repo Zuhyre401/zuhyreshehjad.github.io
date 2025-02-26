@@ -25,19 +25,9 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* প্রোফাইল ছবি */
-img {
-    width: 150px;  /* ছবির আকার */
-    height: 150px; /* অনুপাত ঠিক রাখা */
-    border-radius: 50%; /* সার্কুলার ইমেজ */
-    border: 4px solid #3498db; /* নীল বর্ডার */
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); /* সুন্দর শ্যাডো */
-    transition: transform 0.3s ease-in-out;
+
 }
 
-/* হোভার করলে ছবি বড় হবে */
-img:hover {
-    transform: scale(1.1);
 }
 
 /* নাম ও বিবরণ */
